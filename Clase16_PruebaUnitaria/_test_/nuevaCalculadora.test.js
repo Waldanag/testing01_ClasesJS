@@ -17,7 +17,7 @@ test('Suma - Valores Ok', ()=>{
 test('Suma - Valores Null', ()=>{
 
     let valorActual = suma(null, null);
-    let valorEsperado = null;
+    let valorEsperado = null};
 
     expect(valorActual).toBe(valorEsperado);
     //expect(suma(5, 55)).toBe(60);
