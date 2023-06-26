@@ -4,7 +4,8 @@
   "description": "An introduction to JS testing",
   "main": "app.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:coverage": "jest --coverage"
   },
   "keywords": [
     "js",
